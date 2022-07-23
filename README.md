@@ -47,14 +47,20 @@ After performing the desired actions, the user will then get the option to **log
 
 ## Screenshots :camera_flash:
 
+<h3> Login Console </h3>
 <p align="center">
-<ul> Login Console </ul>
-<img src="/images/ Snap1.jpeg" width="350px" />
-<ul> Welcome Teacher </ul>
-<img src="/images/ Snap2.jpeg" width="350px" />
-<ul> Uploading of marks and attendance </ul>
-<img src="/images/ Snap3.jpeg" width="350px" />
+    <img src="/images/Snap1.jpeg" width="400px" />    
 </p>
+<h3> Welcome Teacher </h3>
+<p align="center">
+    <img src="/images/Snap2.jpeg" width="400px" />
+</p>
+<h3> Uploading of marks and attendance </h3>
+<p align="center">
+    <img src="/images/Snap3.jpeg" width="400px" />    
+</p>
+
+
 
 ## Topics Covered
 
