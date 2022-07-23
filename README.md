@@ -1,8 +1,7 @@
 # Teachers-Portal-Java-Project
 <sub> 2nd Semester Project - Course: PF (Java lang)</sub>
+
 2nd Semester Project for Programming Fundamentals Course in Java programming language.
-
-
 
 ### Prerequisites
 
