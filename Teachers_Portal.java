@@ -1,4 +1,7 @@
-
+/*
+    For Login : Two accounts namely Teacher 1 and Teacher 2
+    Passwords : To login -> 111 and 222, respectively!
+*/
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -11,7 +14,7 @@ public class FInal_project {
     public static void main(String[] args) {
 
         //Initial details..
-        String[] userName = {"Muzaffar Iqbal", "Muhammad Ajmal"};
+        String[] userName = {"Teacher 1", "Teacher 2"};
         String[] passwordKey = {"111", "222"};
 
         //Declaration of variables ..
@@ -26,15 +29,15 @@ public class FInal_project {
 
             //login console...
             Scanner input = new Scanner(System.in);
-            System.out.println("Enter Username: ");
+            System.out.print("Enter Username: ");
             String email = input.nextLine().trim();
-            System.out.println("Enter Password Key: ");
+            System.out.print("Enter Password Key: ");
             String password = input.next();
             if ((email.equals(userName[0])) && (password.equals(passwordKey[0]))) {
-                String[] studentNames = {"Bilal Khan  ", "Abdul Waheed", "Muhammad Ali", "Muzna Khan  ", "Ahmed Khan  ", "Musab Saeed "};
+                String[] studentNames = {"Student 1  ", "Student 2", "Student 3", "Student 4  ", "Student 5  ", "Student 6  "};
                 do {
                     System.out.println("**PROGRAMMING FUNDAMENTAL TEACHER PORTAL**");
-                    System.out.println("Welcome Muzafar Iqbal!");
+                    System.out.println("Welcome Teacher 1!");
                     System.out.println("Enter number to perform corresponding opeartion");
                     System.out.println("1: Insert marks");
                     System.out.println("2: Insert attendance");
@@ -236,10 +239,10 @@ public class FInal_project {
                 break;
 
             } else if ((email.equals(userName[1])) && (password.equals(passwordKey[1]))) {
-                String[] studentNames = {"Bilal Khan  ", "Abdul Waheed", "Muhammad Ali", "Muzna Khan  ", "Ahmed Khan  ", "Musab Saeed "};
+                String[] studentNames = {"Student 1  ", "Student 2", "Student 3", "Student 4  ", "Student 5  ", "Student 6  "};
                 do {
                     System.out.println("**FUNDAMENTALS OF GENETICS TEACHER PORTAL**");
-                    System.out.println("Welcome Muhammad Ajmal!");
+                    System.out.println("Welcome Teacher 2!");
                     System.out.println("Enter number to perform corresponding opeartion");
                     System.out.println("1: Insert marks");
                     System.out.println("2: Insert attendance");
@@ -554,7 +557,7 @@ public class FInal_project {
 
     //Method --> File writer for Marks to avoid repitition of same code ..
     private static void fileWriterMarks(String a, String b, String c, int[] marks2) {
-        String[] studentNames = {"Bilal Khan  ", "Abdul Waheed", "Muhammad Ali", "Muzna Khan  ", "Ahmed Khan  ", "Musab Saeed "};
+        String[] studentNames = {"Student 1  ", "Student 2", "Student 3", "Student 4  ", "Student 5  ", "Student 6  "};
         try {
             int[] marks = marks2;
             BufferedWriter writer = new BufferedWriter(new FileWriter(a));
@@ -574,7 +577,7 @@ public class FInal_project {
 
     //Method --> File writer for Attendance to avoid repitition of same code ..
     private static void fileWriterAttendance(String a) {
-        String[] studentNames = {"Bilal Khan  ", "Abdul Waheed", "Muhammad Ali", "Muzna Khan  ", "Ahmed Khan  ", "Musab Saeed "};
+        String[] studentNames = {"Student 1  ", "Student 2", "Student 3", "Student 4  ", "Student 5  ", "Student 6  "};
         try {
             String attendance[] = new String[studentNames.length];
             initializer(attendance);
@@ -593,3 +596,4 @@ public class FInal_project {
         }
     }
 }
+
