@@ -94,7 +94,7 @@ The system will provide a comprehensive combination of the following:
 - [Bilal Khan]() 
 
 ## Feedback
-If you have any query, please reach me at : abdulwaheed@ieee.org
+If you have any query, please reach me at : theabdulwaheed38@gmail.com
 
 ## LICENSE
 This project is under GNU LICENSE you can learn more about it here: [GNU LICENSE](LICENSE)
